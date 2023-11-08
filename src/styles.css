@@ -19,7 +19,7 @@ h3 {
   opacity: 0.8;
   font-size: 20px;
 }
-.containe {
+.section {
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
@@ -66,6 +66,9 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.about-link a:hover {
+  color: white;
+}
 footer {
   background-color: var(--secondary-color);
 }
@@ -74,14 +77,21 @@ socials {
   justify-content: center;
 }
 .socials a {
-  padding: 20px 15px;
+  padding: 10px 15px;
   margin-top: 20px;
   font-size: 10px;
+  color: #095cec;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
-p {
-  margin: 10px;
-  padding: 15px;
+.socials a:hover {
+  background-color: #095cec;
+  color: white;
+  cursor: pointer;
 }
+
 launch {
   margin-top: 20px;
   padding: 20px;
@@ -97,20 +107,20 @@ launch-link {
 }
 @media (max-width: 700px) {
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 24px;
   }
   h3 {
     font-size: 24px;
   }
+  .section,
+  .technologies,
+  footer {
+    display: flex;
+  }
   p {
     font-size: 14px;
-  }
-  .launch-link {
-    display: block;
-    margin: 5px;
-    text-align: center;
   }
 }
