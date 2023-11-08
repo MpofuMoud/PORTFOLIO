@@ -1,7 +1,7 @@
 :root {
   --font-family: "Libre Baskerville", serif;
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #095cec;
+  --secondary-color: #ded5c8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
@@ -19,17 +19,21 @@ h3 {
   opacity: 0.8;
   font-size: 20px;
 }
-.container {
+.containe {
   margin: 10px;
   padding: 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
   font-family: var(--font-family);
-  background-image: url(/images/IMG_20211108_125109.jpg);
+  background-image: url(/images/undraw_Programmer_re_owql.png);
 }
+
 .section-1 {
-  margin-top: 400px;
+  margin-top: 100px;
+  margin-bottom: 300px;
   padding: 2px;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .technologies {
@@ -37,16 +41,16 @@ h3 {
   margin-top: 20px;
   padding: 20px;
   font-size: 24px;
-  background-color: antiquewhite;
 }
 .technologies ul {
   list-style-type: none;
+  font-size: 30px;
   display: flex;
   justify-content: space-evenly;
 }
 .technologies small {
   padding-left: 20px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .aboutlink a {
@@ -62,15 +66,17 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
+footer {
+  background-color: var(--secondary-color);
+}
 socials {
   display: flex;
-
   justify-content: center;
 }
 .socials a {
   padding: 20px 15px;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 10px;
 }
 p {
   margin: 10px;
