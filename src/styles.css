@@ -92,19 +92,14 @@ socials {
   cursor: pointer;
 }
 
-launch {
-  margin-top: 20px;
-  padding: 20px;
-}
-launch-link {
+.launch {
   border-radius: 4px;
   padding: 20px 15px;
-  text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
+
 @media (max-width: 700px) {
   h1 {
     font-size: 40px;
