@@ -118,6 +118,9 @@ socials {
   h3 {
     font-size: 24px;
   }
+  .imgs {
+    display: none;
+  }
   .section,
   .technologies,
   footer {
