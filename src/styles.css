@@ -61,7 +61,7 @@ footer,
 
   border-radius: 20px;
   box-shadow: var(--box-shadow);
-  font-family: var(--font-family);
+  font-family: var(--x-font-family);
   background-image: url(/images/undraw_Programmer_re_owql.png);
 }
 
