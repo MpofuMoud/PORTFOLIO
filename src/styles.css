@@ -109,10 +109,6 @@ footer,
   background-color: var(--x-secondary-color);
 }
 
-socials {
-  display: flex;
-  justify-content: center;
-}
 .socials a {
   padding: 10px 15px;
   margin-top: 20px;
@@ -159,12 +155,9 @@ socials {
   .section,
   .technologies,
   footer {
-    display: flex;
+    font-size: 10px;
   }
   p {
     font-size: 14px;
-  }
-  .socials {
-    font-size: 10px;
   }
 }
