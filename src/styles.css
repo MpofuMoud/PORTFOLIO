@@ -124,6 +124,11 @@ footer,
   color: white;
   cursor: pointer;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
 
 .launch {
   border-radius: 4px;
@@ -134,7 +139,9 @@ footer,
 }
 
 .contactbox {
-  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  background-color: var(--x-secondary-color);
 }
 @media (max-width: 700px) {
   h1 {
@@ -155,9 +162,27 @@ footer,
   .section,
   .technologies,
   footer {
-    font-size: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .contactbox,
+  .socials,
+  .technologies ul {
+    display: block;
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .logo {
+    display: none;
   }
   p {
     font-size: 14px;
+  }
+  .mywork {
+    display: block;
+    text-align: center;
+    font-size: 10px;
   }
 }
