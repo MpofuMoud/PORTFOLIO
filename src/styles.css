@@ -141,6 +141,7 @@ footer,
 .contactbox {
   display: flex;
   justify-content: center;
+  gap: 30px;
   background-color: var(--x-secondary-color);
 }
 @media (max-width: 700px) {
