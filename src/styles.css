@@ -35,11 +35,11 @@ footer,
 }
 
 .section-1 {
-  margin-top: 100px;
-  margin-bottom: 300px;
   padding: 2px;
 
   color: black;
+  margin-top: 300px;
+  margin-bottom: 600px;
 }
 
 .technologies {
